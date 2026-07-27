@@ -1,3 +1,3 @@
 # Springboot-beginner-project
 
-### This is a SpringBoot camp where we will be learning about the basics of web development
+### A beginner-friendly Spring Boot project to learn the fundamentals of backend web development, REST APIs, and Spring Boot concepts through simple examples and hands-on practice.
