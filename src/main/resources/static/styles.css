@@ -1,3 +1,30 @@
 h1{
     color: blue; /*This CSS rule sets the text color of all <h1> elements to blue*/
 }
+
+.navbar{ 
+    border-width:2px; /*This CSS rule sets the border width of elements with the class "navbar" to 2 pixels,initially it is zero*/
+    border-color: gray; /*This CSS rule sets the border color of elements with the class "navbar" to gray*/
+    border-style: solid; /*This CSS rule sets the border style of elements with the class "navbar" to solid it gives a straight line to the border*/
+    padding: 15px; /*This CSS rule sets the padding of elements with the class "navbar" to 15 pixels, it gives space between the content and the border*/
+    text-align: center; /*This CSS rule sets the text alignment of elements with the class "navbar" to center, it aligns the text in the center of the element*/
+    background-color:white;
+}
+
+/* If we want to give the spacing between each of the links in navbar we will be givng the .navabar.a which means we are giving the styling to the anchor tag inside the navbar class*/
+/* This is being done because in genral if we only keep a it will give the styling to all the anchor tags in the page but we want to give the styling only to the anchor tags inside the navbar class so we are using .navbar a*/
+.navbar a{
+    padding: 10px; /*This CSS rule sets the padding of anchor tags inside elements with the class "navbar" to 10 pixels, it gives space between the content and the border*/
+    text-decoration: none; 
+    color: grey; /*This CSS rule sets the text color of anchor tags inside elements with the class "navbar" to black*/
+    
+
+}/*This CSS rule removes the underline from anchor tags inside elements within navbar*/
+
+.navbar a:hover{
+    color: black; /*This CSS rule sets the text color of anchor tags inside elements with the class "navbar" to black when hovered over*/
+}
+body{
+    margin: 0; /*This CSS rule sets the margin of the body element to 0, it removes the default margin around the body*/
+    background-color: rgb(126, 244, 232); /*This CSS rule sets the background color of the body element to a light gray color*/
+}
