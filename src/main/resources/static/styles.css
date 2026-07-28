@@ -28,3 +28,19 @@ body{
     margin: 0; /*This CSS rule sets the margin of the body element to 0, it removes the default margin around the body*/
     background-color: rgb(126, 244, 232); /*This CSS rule sets the background color of the body element to a light gray color*/
 }
+.card{
+    border: 2px solid gray; /*This CSS rule sets the border of elements with the class "card" to 2 pixels solid gray*/
+    width: 300px; /*This CSS rule sets the width of elements with the class "card" to 300 pixels*/
+    text-align: center; /*This CSS rule sets the text alignment of elements with the class "card" to center, it aligns the text in the center of the element*/
+    margin-top: 20px; /*This CSS rule sets the top margin of elements with the class "card" to 20 pixels, it gives space between the element and the element above it*/
+    margin-left: auto; /*This CSS rule sets the left margin of elements with the class "card" to 300 pixels, it gives space between the element and the element to the left of it and also we can help to kep card in center*/
+    margin-right: auto; /*This CSS rule sets the right margin of elements with the class "card" to 300 pixels, it gives space between the element and the element to the right of it and also we can help to kep card in center*/
+    background-color: white; /*This CSS rule sets the background color of elements with the class "card" to white*/
+    border-radius: 5px; /*This CSS rule sets the border radius of elements with the class "card" to 5 pixels, it gives rounded corners to the element*/
+    overflow: hidden; /*This CSS rule sets the overflow of elements with the class "card" to hidden, it hides any content that overflows the element's box*/
+}
+.card img{
+    width: 100%;
+     /*This CSS rule sets the width of images inside elements with the class "card" to 100% of the parent element's width*/
+
+}
